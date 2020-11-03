@@ -16,3 +16,4 @@
 
 export { Text, Display, Headline } from './typography';
 export { Button } from './button';
+export { Alert, ALERT_SEVERITY } from './alert';

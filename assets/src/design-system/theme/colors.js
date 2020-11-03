@@ -84,6 +84,9 @@ export const dark = {
     panel: '#282A2A',
     divider: standard.white,
   },
+  border: {
+    primary: standard.white,
+  },
 };
 
 export const light = {
@@ -104,5 +107,8 @@ export const light = {
     workspace: '#FCFCFC',
     panel: '#F7F8F7',
     divider: '#1B1D1C',
+  },
+  border: {
+    primary: standard.black,
   },
 };
