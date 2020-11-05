@@ -34,6 +34,8 @@ const brand = {
     10: '#DFCDFE',
   },
   blue: {
+    90: '#4740A2',
+    80: '#4F60C3',
     60: '#3E4796',
     40: '#5A72D0',
     30: '#79B3FF',
@@ -77,6 +79,8 @@ export const dark = {
     gray24: '#5E615C',
     gray16: '#414442',
     gray8: '#2F3131',
+    linkNormal: brand.blue[30],
+    linkHover: brand.blue[40],
   },
   bg: {
     primary: standard.black,
@@ -101,6 +105,8 @@ export const light = {
     gray24: '#A1A09B',
     gray16: '#D1D1CC',
     gray8: '#EFEFEF',
+    linkNormal: brand.blue[80],
+    linkHover: brand.blue[90],
   },
   bg: {
     primary: standard.white,
